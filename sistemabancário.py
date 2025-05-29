@@ -26,6 +26,7 @@ while True:
             saldo += valor 
             extrato += f"Depósito: R$ {valor:.2f}\n"
             print("Depósito realizado com sucesso.")
+        else:
             print("Operação falhou! Valor inválido.")
 
     elif opcao == "s":
